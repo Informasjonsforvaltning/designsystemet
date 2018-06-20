@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.0"
+    "bootstrap": "^3.3.1",
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0"
   }
 }
