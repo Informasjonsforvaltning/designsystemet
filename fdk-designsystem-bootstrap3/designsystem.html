@@ -1,0 +1,58 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/designsystem.css">
+        <link rel="stylesheet" href="css/colors.css">
+		    <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="css/portal.css">
+        <link rel="stylesheet" href="css/typo.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900">	
+    </head>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		
+		<body>
+			<div class="container designsystemColor1" style="margin: 0px; padding: 30px 0px 30px 0px; width: 100%;">
+				<h1 class="fdk-text-center fdk-color0">Designsystem Felles datakatalog</h1>
+				<h4 class="fdk-text-center fdk-color-cta">29.11.2017 - 12:24</h4>
+			</div>
+			<div class="container designsystemColor3" style="margin: 0px 0px 80px 0px; padding: 10px 0px; width: 100%;">
+				<p class="fdk-text-center" style="margin: 0px;">
+					<a href="#colors" class="designsystemLinks">Farger</a> /
+					<a href="#fonts" class="designsystemLinks">Fonter</a> /
+					<a href="#icons" class="designsystemLinks">Ikoner</a> /
+					<a href="#buttons" class="designsystemLinks">Buttons & dropdowns</a> /
+					<a href="#labels" class="designsystemLinks">Labels</a> /
+					<a href="#alerts" class="designsystemLinks">Varsling</a> /
+					<a href="#headerfooter" class="designsystemLinks">Header & footer</a> /
+					<a href="#searchhit" class="designsystemLinks">Søkeside</a> /
+					<a href="#detail" class="designsystemLinks">Detaljside</a> /
+					<a href="#register" class="designsystemLinks">Registrering</a> /
+					<a href="#begrep" class="designsystemLinks">Begrep</a>
+				</p>
+			</div>
+			
+			<div w3-include-html="include/1.1-colors.html" id="colors"></div>
+			<div w3-include-html="include/1.2-fonts.html" id="fonts"></div>
+			<div w3-include-html="include/1.3-icons.html" id="icons"></div>
+			<div w3-include-html="include/1.4-buttons.html" id="buttons"></div>
+			<div w3-include-html="include/1.5-labels.html" id="labels"></div>
+			<div w3-include-html="include/1.6-alerts.html" id="alerts"></div>
+			<div w3-include-html="include/1.7-header-footer.html" id="headerfooter"></div>	
+			<div w3-include-html="include/2.1-search-hit.html" id="searchhit"></div>
+			<div w3-include-html="include/3.1-detail.html" id="detail"></div>
+			<div w3-include-html="include/4.1-register-dataset.html" id="register"></div>
+			<div w3-include-html="include/5.1-compare.html" id="begrep"></div>	
+			
+			<script>
+				w3.includeHTML();
+			</script>
+	</body>
+</html>
