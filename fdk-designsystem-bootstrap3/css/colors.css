@@ -1,90 +1,76 @@
-:root {
-    --color0: #ffffff; /* hvit */
-    --color1: #2D3741; /* mørkest blågrå – heading */
-    --color2: #A0A5AA; /* mørk blågrå – store ikoner */
-    --color3: #646E78; /* medium blågrå – lysere tekst */
-    --color4: #D2D7DC; /* mellomlys blågrå –  */
-    --color5: #DEE3E8; /* bakgrunn til filter */
-    --color6: #EEF0F2; /* lys blågrå – bakgrunner */
-    --color7: #F2F4F6; /* ultralys – til bakgrunn på hjelpetekst i nytt designforslag */
-    
-    --color-cta: #00C3FF; /* blå themefarge */
-    --color-cta2: #0069A5; /* blå for liten tekst */
-    --color-cta3: #009BD7; /* blå for stor tekst */
-    --color-cta4: #AAE6FF; /* lys blå */
-    
-    --color-green: #00CD96; /* grønn */
-    --color-green2: #D7FAF0; /* lys grønn*/
-    
-    --color-yellow: #FFC800; /* gul */
-    --color-yellow2: #FFFAE1; /* lys gul */
-    
-    --color-red: #FF4682; /* rød */
-    --color-red2: #FFE1EB; /* lys rød */
-    --color-red3: #C80041; /* mørk rød */
-    
-    --color-shadow: rgba(35, 55, 65, 0.55);
-}
-
+@charset "UTF-8";
+/* hvit */
+/* mørkest blågrå – heading */
+/* medium blågrå – store ikoner */
+/* medium blågrå – lysere tekst */
+/* mellomlys blågrå –  */
+/* bakgrunn til filter */
+/* lys blågrå – bakgrunner */
+/* ultralys – til bakgrunn på hjelpetekst i nytt designforslag */
+/* blå themefarge */
+/* blå for liten tekst */
+/* blå for stor tekst */
+/* lys blå */
+/* grønn */
+/* lys grønn*/
+/* gul */
+/* lys gul */
+/* rød */
+/* lys rød */
+/* mørk rød */
 .fdk-color0 {
-    color: var(--color0);
-}
+  color: #ffffff; }
 
 .fdk-color1 {
-    color: var(--color1);
-}
+  color: #2D3741; }
 
 .fdk-color2 {
-    color: var(--color2);
-}
+  color: #A0A5AA; }
 
 .fdk-color3 {
-    color: var(--color3);
-}
+  color: #646E78; }
+
 .fdk-color4 {
-    color: var(--color4);
-}
+  color: #D2D7DC; }
 
 .fdk-color5 {
-    color: var(--color5);
-}
+  color: #DEE3E8; }
 
 .fdk-color6 {
-    color: var(--color6);
-}
+  color: #EEF0F2; }
 
 .fdk-color-cta {
-    color: var(--color-cta);
-}
+  color: #00C3FF; }
 
 .fdk-color-cta2 {
-    color: var(--color-cta2);
-}
+  color: #0069A5; }
 
 .fdk-color-cta3 {
-    color: var(--color-cta3);
-}
+  color: #009BD7; }
 
 .fdk-color-cta4 {
-    color: var(--color-cta4);
-}
+  color: #AAE6FF; }
 
 .fdk-color-offentlig {
-    color: var(--color-green) !important;
-}
+  color: #00CD96 !important; }
 
 .fdk-color-begrenset {
-    color: var(--color-yellow) !important;
-}
+  color: #FFC800 !important; }
 
 .fdk-color-unntatt {
-    color: var(--color-red) !important;
-}
+  color: #FF4682 !important; }
 
 .fdk-color-unknown {
-    color: var(--color2) !important;
-}
+  color: #A0A5AA !important; }
+
+.fdk-color-green {
+  color: #00CD96; }
+
+.fdk-color-yellow {
+  color: #FFC800; }
+
+.fdk-color-red {
+  color: #FF4682; }
 
 .fdk-color-icon-cta {
-    color: var(--color1);
-}
+  color: #2D3741; }
