@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* hvit */
+/* mørkest blågrå – heading */
+/* medium blågrå – store ikoner */
+/* medium blågrå – lysere tekst */
+/* mellomlys blågrå –  */
+/* bakgrunn til filter */
+/* lys blågrå – bakgrunner */
+/* ultralys – til bakgrunn på hjelpetekst i nytt designforslag */
+/* blå themefarge */
+/* blå for liten tekst */
+/* blå for stor tekst */
+/* lys blå */
+/* grønn */
+/* lys grønn*/
+/* gul */
+/* lys gul */
+/* rød */
+/* lys rød */
+/* mørk rød */
+.fdk-color0 {
+  color: #ffffff; }
+
+.fdk-color1 {
+  color: #2D3741; }
+
+.fdk-color2 {
+  color: #A0A5AA; }
+
+.fdk-color3 {
+  color: #646E78; }
+
+.fdk-color4 {
+  color: #D2D7DC; }
+
+.fdk-color5 {
+  color: #DEE3E8; }
+
+.fdk-color6 {
+  color: #EEF0F2; }
+
+.fdk-color-cta {
+  color: #00C3FF; }
+
+.fdk-color-cta2 {
+  color: #0069A5; }
+
+.fdk-color-cta3 {
+  color: #009BD7; }
+
+.fdk-color-cta4 {
+  color: #AAE6FF; }
+
+.fdk-color-offentlig {
+  color: #00CD96 !important; }
+
+.fdk-color-begrenset {
+  color: #FFC800 !important; }
+
+.fdk-color-unntatt {
+  color: #FF4682 !important; }
+
+.fdk-color-unknown {
+  color: #A0A5AA !important; }
+
+.fdk-color-green {
+  color: #00CD96; }
+
+.fdk-color-yellow {
+  color: #FFC800; }
+
+.fdk-color-red {
+  color: #FF4682; }
+
+.fdk-color-icon-cta {
+  color: #2D3741; }
+
+/*  T Y P O G R A P H Y  */
+h1 {
+  color: #2D3741;
+  font-size: 2.8rem;
+  line-height: 3.36rem;
+  font-weight: 300;
+  margin: 8px 0 0 0; }
+
+h2 {
+  color: #2D3741;
+  font-size: 2.4rem;
+  line-height: 2.88rem;
+  font-weight: 600; }
+
+.fdk-container-search-hit > h2 {
+  clear: both;
+  margin: 0 0 10px 0; }
+
+h3 {
+  color: #2D3741;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  margin: 0px; }
+
+h4 {
+  color: #2D3741;
+  font-size: 1.6rem;
+  line-height: 1.92rem;
+  font-weight: 600;
+  margin: 0px; }
+
+h5 {
+  color: #646E78;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px 0px .4rem 0px; }
+
+/* React warns against placing div inside a paragraph, so let's create paragraph-like div instead*/
+p, .p {
+  margin: 0 0 2.3rem 0; }
+
+.fdk-ingress {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  margin: 0 0 2.8rem 0;
+  word-wrap: break-word; }
+
+.fdk-ingress-detail {
+  margin: 0px;
+  padding: 0px; }
+
+.fdk-list {
+  padding-bottom: 2.3rem; }
+
+.fdk-list-short {
+  padding-bottom: 1.15rem; }
+
+.fdk-list-number {
+  list-style-type: decimal; }
+
+a {
+  color: #0069A5;
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-cta2); }
+
+.fdk-p-header {
+  font-size: 3rem;
+  line-height: 3rem;
+  padding-bottom: 8px;
+  margin: 0px; }
+
+.fdk-p-header-sub {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: center;
+  padding: 1.3rem 0px 0px 0px;
+  margin: 0px; }
+
+.fdk-p-footer {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  font-weight: 300;
+  color: #646E78;
+  padding: 0;
+  margin: 0; }
+
+.fdk-p-footer > a {
+  color: #646E78; }
+
+.fdk-header-beta > a {
+  color: #fff; }
+
+.fdk-textregular {
+  font-weight: 400; }
+
+.fdk-text-white {
+  color: #fff; }
+
+.fdk-text-right {
+  text-align: right; }
+
+.fdk-text-center {
+  text-align: center; }
+
+.fdk-text-regular {
+  font-weight: 400; }
+
+.fdk-strong-virksomhet {
+  color: #0069A5;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+  margin-right: 10px;
+  font-size: 1.6rem; }
+
+.fdk-national {
+  color: #0069A5;
+  letter-spacing: 0.03rem; }
+  .fdk-national strong {
+    font-size: 1.4rem; }
+
+.fdk-p-path {
+  color: #646E78;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: .5em;
+  padding: 1em 0; }
+  .fdk-p-path a {
+    text-decoration: none;
+    color: #646E78; }
+    .fdk-p-path a:hover {
+      text-decoration: underline; }
+
+/*  F O N T   A W E S O M E  */
+.fdk-fa-right {
+  margin-left: .5em; }
+
+.fdk-fa-left {
+  margin-right: .5em; }
+
+.fdk-label-default:hover > .fdk-fa-button {
+  /* Hovering for labels with font awesome icons */
+  color: #2D3741; }
+
+.fdk-label-default:active > .fdk-fa-button {
+  /* Hovering for labels with font awesome icons */
+  color: #fff; }
