@@ -528,6 +528,7 @@ SEARCHPAGE SORTING DROPDOWN
     vertical-align: middle;
     background: #fff;
     display: inline-block;
+    position: relative;
     &:after {
         top: 2px;
         left: 2px;
@@ -539,8 +540,8 @@ input:checked ~ .checkbox-replacement::after {
     width: 10px;
     height: 10px;
     background: #2D3741;
-    left: 3px;
-    top: 7px;
+    left: 2px;
+    top: 2px;
     border-radius: 3px;
     content:'';
 }
