@@ -7,6 +7,13 @@
   animation: $params;
 }
 
+.fade-in-300 {
+  @include animate ( fadein 300ms );
+}
+
+.fade-in-400 {
+  @include animate ( fadein 400ms );
+}
 
 .fade-in-500 {
   @include animate ( fadein 500ms );
