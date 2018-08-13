@@ -80,32 +80,30 @@ h1 {
   color: #2D3741;
   font-size: 2.8rem;
   line-height: 3.36rem;
-  font-weight: 300;
-  margin: 8px 0 0 0; }
+  font-weight: 600;
+  margin: 0 0 2.8rem 0; }
 
 h2 {
   color: #2D3741;
   font-size: 2.4rem;
   line-height: 2.88rem;
-  font-weight: 600; }
-
-.fdk-container-search-hit > h2 {
-  clear: both;
-  margin: 0 0 10px 0; }
+  font-weight: 600;
+}
 
 h3 {
   color: #2D3741;
   font-size: 2rem;
   line-height: 2.4rem;
   font-weight: 600;
-  margin: 0px; }
+}
 
 h4 {
   color: #2D3741;
   font-size: 1.6rem;
   line-height: 1.92rem;
   font-weight: 600;
-  margin: 0px; }
+  margin: 0px;
+}
 
 h5 {
   color: #646E78;
