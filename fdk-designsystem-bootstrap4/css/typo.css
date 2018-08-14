@@ -176,17 +176,14 @@ a:hover {
   font-weight: 400; }
 
 .fdk-strong-virksomhet {
-  color: #0069A5;
   font-weight: 600;
   letter-spacing: 0.03rem;
-  margin-right: 10px;
-  font-size: 1.6rem; }
+  margin-right: 10px; }
 
 .fdk-national {
-  color: #0069A5;
   letter-spacing: 0.03rem; }
   .fdk-national strong {
-    font-size: 1.4rem; }
+    font-size: 1.5rem; }
 
 .fdk-p-path {
   color: #646E78;
@@ -199,6 +196,10 @@ a:hover {
     color: #646E78; }
     .fdk-p-path a:hover {
       text-decoration: underline; }
+
+.fdk-detail-date {
+  color: #646E78;
+  font-size: 1.4rem; }
 
 /*  F O N T   A W E S O M E  */
 .fdk-fa-right {

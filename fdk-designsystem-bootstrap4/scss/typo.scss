@@ -129,18 +129,15 @@ a:hover {
 }
 
 .fdk-strong-virksomhet {
-    color: $color-cta2;
     font-weight: 600;
     letter-spacing: 0.03rem;
     margin-right: 10px;
-    font-size: 1.6rem;
 }
 
 .fdk-national {
-    color: $color-cta2;
     letter-spacing: 0.03rem;
     strong {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -157,6 +154,11 @@ a:hover {
             text-decoration: underline;
         }
     }
+}
+
+.fdk-detail-date {
+    color: $color3;
+    font-size: 1.4rem;
 }
 
 /*  F O N T   A W E S O M E  */
