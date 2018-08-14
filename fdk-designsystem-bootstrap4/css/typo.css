@@ -77,38 +77,29 @@
 
 /*  T Y P O G R A P H Y  */
 h1 {
-  color: #2D3741;
   font-size: 2.8rem;
-  line-height: 3.36rem;
-  font-weight: 600;
-  margin: 0 0 2.8rem 0; }
+  font-weight: 600; }
+  h1.title {
+    margin-bottom: 1em; }
 
 h2 {
-  color: #2D3741;
   font-size: 2.4rem;
-  line-height: 2.88rem;
   font-weight: 600; }
 
 h3 {
-  color: #2D3741;
   font-size: 2rem;
-  line-height: 2.4rem;
   font-weight: 600; }
 
 h4 {
-  color: #2D3741;
   font-size: 1.6rem;
-  line-height: 1.92rem;
   font-weight: 600;
   margin: 0px; }
 
 h5 {
   color: #646E78;
   font-size: 1.5rem;
-  line-height: 1.9rem;
   font-weight: 400;
-  padding: 0px;
-  margin: 0px 0px .4rem 0px; }
+  margin-bottom: .4rem; }
 
 /* React warns against placing div inside a paragraph, so let's create paragraph-like div instead*/
 p, .p {
