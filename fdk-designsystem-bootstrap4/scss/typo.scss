@@ -11,8 +11,6 @@ h1 {
     }
 }
 
-
-
 h2 {
     font-size: 2.4rem;
     font-weight: 600;
@@ -48,23 +46,6 @@ p {
     word-wrap: break-word;
 }
 
-.fdk-ingress-detail {
-    margin: 0px;
-    padding: 0px;
-}
-
-.fdk-list {
-    padding-bottom: 2.3rem;
-}
-
-.fdk-list-short {
-    padding-bottom: 1.15rem;
-}
-
-.fdk-list-number {
-    list-style-type: decimal;
-}
-
 a {
     color: $color-cta2;
     text-decoration: underline;
@@ -73,21 +54,6 @@ a {
 a:hover {
     text-decoration: none;
     color: var(--color-cta2);
-}
-
-.fdk-p-header {
-    font-size: 3rem;
-    line-height: 3rem;
-    padding-bottom: 8px;
-    margin: 0px;
-}
-
-.fdk-p-header-sub {
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    text-align: center;
-    padding: 1.3rem 0px 0px 0px;
-    margin: 0px;
 }
 
 .fdk-p-footer {
@@ -104,22 +70,6 @@ a:hover {
 }
 
 .fdk-textregular {
-	font-weight: 400;
-}
-
-.fdk-text-white {
-    color: #fff;
-}
-
-.fdk-text-right {
-	text-align: right;
-}
-
-.fdk-text-center {
-	text-align: center;
-}
-
-.fdk-text-regular {
 	font-weight: 400;
 }
 
@@ -154,6 +104,27 @@ a:hover {
 .fdk-detail-date {
     color: $color3;
     font-size: 1.4rem;
+}
+
+/* TEXT SIZES */
+.fdk-text-size-small {
+    font-size: 1.4rem;
+}
+
+.fdk-text-strong {
+    font-weight: 500;
+}
+
+.fdk-text-extra-strong {
+    font-weight: 600;
+}
+
+.fdk-text-size-medium {
+    font-size: 2rem;
+}
+
+.fdk-text-line-medium {
+    line-height: 2em;
 }
 
 /*  F O N T   A W E S O M E  */
