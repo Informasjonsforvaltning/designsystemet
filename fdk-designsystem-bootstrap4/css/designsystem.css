@@ -1,81 +1,7 @@
 @charset "UTF-8";
-/* hvit */
-/* mørkest blågrå – heading */
-/* medium blågrå – store ikoner */
-/* medium blågrå – lysere tekst */
-/* mellomlys blågrå –  */
-/* bakgrunn til filter */
-/* lys blågrå – bakgrunner */
-/* ultralys – til bakgrunn på hjelpetekst i nytt designforslag */
-/* blå themefarge */
-/* blå for liten tekst */
-/* blå for stor tekst */
-/* lys blå */
-/* grønn */
-/* lys grønn*/
-/* gul */
-/* lys gul */
-/* rød */
-/* lys rød */
-/* mørk rød */
-.fdk-color0 {
-  color: #ffffff; }
-
-.fdk-color1 {
-  color: #2D3741; }
-
-.fdk-color2 {
-  color: #A0A5AA; }
-
-.fdk-color3 {
-  color: #646E78; }
-
-.fdk-color4 {
-  color: #D2D7DC; }
-
-.fdk-color5 {
-  color: #DEE3E8; }
-
-.fdk-color6 {
-  color: #EEF0F2; }
-
-.fdk-color-cta {
-  color: #00C3FF; }
-
-.fdk-color-cta2 {
-  color: #0069A5; }
-
-.fdk-color-cta3 {
-  color: #009BD7; }
-
-.fdk-color-cta4 {
-  color: #AAE6FF; }
-
-.fdk-color-offentlig {
-  color: #00CD96 !important; }
-
-.fdk-color-begrenset {
-  color: #FFC800 !important; }
-
-.fdk-color-unntatt {
-  color: #FF4682 !important; }
-
-.fdk-color-unknown {
-  color: #A0A5AA !important; }
-
-.fdk-color-green {
-  color: #00CD96; }
-
-.fdk-color-yellow {
-  color: #FFC800; }
-
-.fdk-color-red {
-  color: #FF4682; }
-
-.fdk-color-icon-cta {
-  color: #2D3741; }
 
 /*  D I V I D E R S   &   B O X E S  */
+
 .designsystemDivider {
   border-color: #DEE3E8;
   width: 100%;
@@ -124,30 +50,63 @@
   display: inline-block; }
 
 /*  H E A D I N G S  */
-.designsystemNumber {
-  font-family: "heebo";
-  font-weight: 600;
-  padding: 10px 5px 9px 5px;
-  margin-right: 10px;
-  background-color: #00C3FF;
-  color: #2D3741;
-  width: 40px;
-  height: auto;
-  border-radius: 2px;
-  text-align: center;
-  float: left; }
 
-.designsystemH1 {
-  font-family: "heebo";
-  font-weight: 600;
-  text-transform: uppercase;
+.designsystemHeader {
+  border-top: 2px solid #D2D7DC;
+  border-bottom: 2px solid #D2D7DC;
+  font-size: 3rem;
+  font-weight: 300;
   letter-spacing: 1px;
-  color: #2D3741;
-  padding: 10px 3px 9px 3px;
-  margin: 0px 0px 50px 0px;
-  height: auto; }
+  width: 100%;
+  padding: 0.8em 0.8em 0.7em 0em;
+  margin: 100px 0px 50px 0px;
+  height: auto;
+  float: left;
+}
+
+.designsystemNumber {
+  width: 2.2em;
+  font-weight: 600;
+  float: left;
+}
 
 /*  C O L O R   P A L E T T E  */
+
+.designsystemColorCard {
+    width: 10em;
+    border-radius: 0.7em;
+    background-color: #fff;
+    margin: 0 1em 1em 0;
+    box-shadow: 0 0.2em 1.2em rgba(45, 55, 65, 0.15);
+    float: left;
+}
+
+.designsystemColorCardTop {
+    width: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+    padding-top: 5em;
+    background-color: #646e78;
+}
+
+.designsystemColorCardBottom {
+  width: 100%;
+  height: 11em;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  border-radius: 0 0 0.5em 0.5em;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 0.8em 0.6em 1em 0.6em;
+}
+
+.designsystemDescription {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #999;
+  font-weight: 300;
+  margin: 0.2em 0 0.5em 0;
+}
+
 .designsystemColorPalette {
   width: 120px;
   height: 120px;
