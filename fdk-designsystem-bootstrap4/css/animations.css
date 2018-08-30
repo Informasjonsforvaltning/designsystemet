@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/**  DEPRECATED  **/
 /* hvit */
 /* mørkest blågrå – heading */
 /* medium blågrå – store ikoner */
@@ -18,7 +19,11 @@
 /* rød */
 /* lys rød */
 /* mørk rød */
+/* hvit */
 .fdk-color0 {
+  color: #ffffff; }
+
+.fdk--bg-color-white {
   color: #ffffff; }
 
 .fdk-color1 {
@@ -74,6 +79,18 @@
 
 .fdk-color-icon-cta {
   color: #2D3741; }
+
+.fade-in-300 {
+  -webkit-animation: fadein 300ms;
+  -moz-animation: fadein 300ms;
+  -o-animation: fadein 300ms;
+  animation: fadein 300ms; }
+
+.fade-in-400 {
+  -webkit-animation: fadein 400ms;
+  -moz-animation: fadein 400ms;
+  -o-animation: fadein 400ms;
+  animation: fadein 400ms; }
 
 .fade-in-500 {
   -webkit-animation: fadein 500ms;
