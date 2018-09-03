@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server --port=8084 --open=designsystem.html",
-    "start": "node-sass -w scss -o css & live-server --port=8084 --open=designsystem.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
