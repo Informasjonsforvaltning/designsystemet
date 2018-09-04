@@ -21,100 +21,100 @@ $color-red-2: #FFEBF0;
 $color-shadow: rgba(35, 55, 65, 0.55);
 
 .fdk-color-blue-dark {
-    color: $fdk-color-blue-dark; }
+    color: $color-blue-dark; }
     
 .fdk-bg-color-blue-dark {
-    background-color: $fdk-bg-color-blue-dark; }
+    background-color: $color-blue-dark; }
     
 .fdk-color-blue {
-    color: $fdk-color-blue; }
+    color: $color-blue; }
 
 .fdk-bg-color-blue {
-    background-color: $fdk-bg-color-blue; }
+    background-color: $color-blue; }
 
 .fdk-color-blue-light {
-    color: $fdk-color-blue-light; }
+    color: $color-blue-light; }
 
 .fdk-bg-color-blue-light {
-    background-color: $fdk-bg-color-blue-light; }
+    background-color: $color-blue-light; }
 
 .fdk-color-dark-1 {
-    color: $fdk-color-dark-1; }
+    color: $color-dark-1; }
 
 .fdk-bg-color-dark-1 {
-    background-color: $fdk-bg-color-dark-1; }
+    background-color: $color-dark-1; }
 
 .fdk-color-dark-2 {
-    color: $fdk-color-dark-2; }
+    color: $color-dark-2; }
 
 .fdk-bg-color-dark-2 {
-    background-color: $fdk-bg-color-dark-2; }
+    background-color: $color-dark-2; }
 
 .fdk-color-grey-1 {
-    color: $fdk-color-grey-1; }
+    color: $color-grey-1; }
 
 .fdk-bg-color-grey-1 {
-    background-color: $fdk-bg-color-grey-1; }
+    background-color: $color-grey-1; }
 
 .fdk-color-grey-2 {
-    color: $fdk-color-grey-2; }
+    color: $color-grey-2; }
 
 .fdk-bg-color-grey-2 {
-    background-color: $fdk-bg-color-grey-2; }
+    background-color: $color-grey-2; }
 
 .fdk-color-grey-3 {
-    color: $fdk-color-grey-3; }
+    color: $color-grey-3; }
 
 .fdk-bg-color-grey-3 {
-    background-color: $fdk-bg-color-grey-3; }
+    background-color: $color-grey-3; }
 
 .fdk-color-grey-4 {
-    color: $fdk-color-grey-4; }
+    color: $color-grey-4; }
 
 .fdk-bg-color-grey-4 {
-    background-color: $fdk-bg-color-grey-4; }
+    background-color: $color-grey-4; }
 
 .fdk-color-white {
-    color: $fdk-color-white; }
+    color: $color-white; }
 
 .fdk-bg-color-white {
-    background-color: $fdk-bg-color-white; }
+    background-color: $color-white; }
 
 .fdk-color-green-1 {
-    color: $fdk-color-green-1; }
+    color: $color-green-1; }
 
 .fdk-bg-color-green-1 {
-    background-color: $fdk-bg-color-green-1; }
+    background-color: $color-green-1; }
 
 .fdk-color-green-2 {
-    color: $fdk-color-green-2; }
+    color: $color-green-2; }
 
 .fdk-bg-color-green-2 {
-    background-color: $fdk-bg-color-green-2; }
+    background-color: $color-green-2; }
 
 .fdk-color-yellow-1 {
-    color: $fdk-color-yellow-1; }
+    color: $color-yellow-1; }
 
 .fdk-bg-color-yellow-1 {
-    background-color: $fdk-bg-color-yellow-1; }
+    background-color: $color-yellow-1; }
 
 .fdk-color-yellow-2 {
-    color: $fdk-color-yellow-2; }
+    color: $color-yellow-2; }
 
 .fdk-bg-color-yellow-2 {
-    background-color: $fdk-bg-color-yellow-2; }
+    background-color: $color-yellow-2; }
 
 .fdk-color-red-1 {
-    color: $fdk-color-red-1; }
+    color: $color-red-1; }
 
 .fdk-bg-color-red-1 {
-    background-color: $fdk-bg-color-red-1; }
+    background-color: $color-red-1; }
 
 .fdk-color-red-2 {
-    color: $fdk-color-red-2; }
+    color: $color-red-2; }
 
 .fdk-bg-color-red-2 {
-    background-color: $fdk-bg-color-red-2; }
+    background-color: $color-red-2; }
 
 
 /**  DEPRECATED  **/
@@ -144,15 +144,15 @@ $color-red3: #C80041; /* mørk rød */
 }
 
 .fdk-bg-color-blue-1 {
-    background-color: $color-blue-1;
+    background-color: $color-blue-light;
 }
 
 .fdk-color-blue-dark-1 {
-    color: $color-blue-1;
+    color: $color-blue-dark;
 }
 
 .fdk-bg-color-blue-dark-1 {
-    background-color: $color-blue-1;
+    background-color: $color-blue-dark;
 }
 
 /* DEPRECATED */
