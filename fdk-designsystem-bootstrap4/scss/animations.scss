@@ -7,6 +7,10 @@
   animation: $params;
 }
 
+.animation-delay-1500 {
+  animation-delay: 1.5s;
+}
+
 .fade-in-300 {
   @include animate ( fadein 300ms );
 }
@@ -48,8 +52,8 @@
   to   { opacity: 1; }
 }
 
-.fadeFromBottom-1500 {
-  @include animate ( fadeFromBottom 1.5s );
+.fadeFromBottom-500 {
+  @include animate ( fadeFromBottom 500ms );
   animation-timing-function: ease-in;
   -webkit-animation-timing-function: ease-in;
   animation-fill-mode: forwards;
