@@ -53,9 +53,7 @@
 }
 
 .fadeFromBottom-500 {
-  @include animate ( fadeFromBottom 500ms );
-  animation-timing-function: ease-in;
-  -webkit-animation-timing-function: ease-in;
+  @include animate ( fadeFromBottom 500ms ease-in 500ms);
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
