@@ -2,12 +2,14 @@
 
 /*  HEADER  */
 
-.nav a {
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: $color1;
-	&:focus, &:active, &:hover {
-		color: $color1 !important;
+.fdk-header {
+	.nav a {
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: $color1;
+		&:focus, &:active, &:hover {
+			color: $color1 !important;
+		}
 	}
 }
 
