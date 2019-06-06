@@ -59,13 +59,13 @@ a:hover {
 .fdk-p-footer {
     @include font-size(1.4);
     font-weight: 300;
-    color: $color3;
+    color: #00FFFF;
     padding: 0;
     margin: 0;
 }
 
 .fdk-p-footer > a {
-    color: $color3;
+    color: #00FFFF;
 }
 
 .fdk-textregular {
