@@ -57,15 +57,27 @@ a:hover {
 }
 
 .fdk-p-footer {
-    @include font-size(1.4);
-    font-weight: 300;
+    @include font-size(1.5);
+    font-weight: 400;
     color: $color3;
     padding: 0;
     margin: 0;
 }
 
 .fdk-p-footer > a {
-    color: $color3;
+    color: $color-blue-dark;
+}
+
+.fdk-external-link {
+    &:after {
+        content: " ";
+        display: inline-block;
+        background-image: url('../img/icon-external-link-sm.svg');
+        background-size: 1em 1em;
+        height: 1em;
+        width: 1em;
+    }
+    
 }
 
 .fdk-textregular {
