@@ -6,9 +6,9 @@
 	.nav a {
 		font-size: 1.5rem;
 		text-decoration: none;
-		color: $color1;
+		color: $color-nautral-darkest;
 		&:focus, &:active, &:hover {
-			color: $color1 !important;
+			color: $color-nautral-darkest !important;
 		}
 	}
 }
@@ -21,10 +21,10 @@
 	background-image: none;
 	text-decoration: none;
 	margin-right: .5em;
-	color: $color-blue-dark !important;
+	color: $color-link !important;
 	font-size: 1.5rem;
 	&:focus, &:active, &:hover {
-		color: $color-blue-dark !important;
+		color: $color-link !important;
 		background-color: transparent !important;
 		border-color: transparent !important;
 	}
@@ -38,10 +38,10 @@
 	background-image: none;
 	text-decoration: none;
 	margin-right: .5em;
-	color: $color-blue-dark !important;
+	color: $color-link !important;
 	font-size: 1.5rem;
 	&:focus, &:active, &:hover {
-		color: $color-blue-dark !important;
+		color: $color-link !important;
 		background-color: transparent !important;
 		border-color: transparent !important;
 	}
@@ -63,20 +63,20 @@
 
 .modal-header {
 	h5 {
-		color: $color0;
+		color: $color-white;
 	}
 	button {
 		span {
 			font-size: 2rem;
-			color: $color-red;
+			color: $color-danger;
 		}
 	}
 }
 
 /*  I N P U T  */
 .fdk-search {
-    color: $color1;
-    border: 1px solid $color1;
+    color: $color-nautral-darkest;
+    border: 1px solid $color-nautral-darkest;
     border-radius: 5px;
     font-size: 2rem;
     line-height: 3rem;
@@ -86,21 +86,21 @@
 }
 
 ::-webkit-input-placeholder { /* PLACEHOLDER COLOR FOR: WebKit, Blink, Edge */
-    color: $color3;
+    color: $color-nautral-dark;
 }
 
 :-moz-placeholder { /* PLACEHOLDER COLOR FOR: Mozilla Firefox 4 to 18 */
-   color: $color3;
+   color: $color-nautral-dark;
    opacity: 1;
 }
 
 ::-moz-placeholder { /* PLACEHOLDER COLOR FOR: Mozilla Firefox 19+ */
-   color: $color3;
+   color: $color-nautral-dark;
    opacity: 1;
 }
 
 :-ms-input-placeholder { /* PLACEHOLDER COLOR FOR: Internet Explorer 10-11 */
-   color: $color3;
+   color: $color-nautral-dark;
 }
 
 /* Medium Devices, Desktops */

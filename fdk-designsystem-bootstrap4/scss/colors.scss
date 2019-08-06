@@ -1,78 +1,84 @@
 /* VALID */
-$color-blue-dark: #0069A5;
-$color-blue: #3CBEF0;
-$color-blue-light: #AAE6FF;
-$color-dark-1: #2D3741;
-$color-dark-2: #646E78;
-$color-grey-1: #D2D7DC;
-$color-grey-2: #DEE3E8;
-$color-grey-3: #EEF0F2;
-$color-grey-4: #F2F4F6;
+$color-link: #0069A5;
+$color-primary: #3CBEF0;
+$color-primary-lighter: #AAE6FF;
+$color-neutral-darkest: #2D3741;
+$color-neutral-dark: #646E78;
+$color-neutral-light: #D2D7DC;
+$color-neutral-lighter: #DEE3E8;
+$color-neutral-lightest: #EEF0F2;
+$color-neutral-lightest2: #F2F4F6;
+$color-success: #007D69;
+$color-success-lighter: #AAEBD7;
+$color-success-3: #DCFAF0;
+$color-warning: #FFBE3C;
+$color-warning-lighter: #FFE19B;
+$color-warning-3: #FFFAD2;
+$color-danger: #D70A5A;
+$color-danger-lighter: #FFD2DC;
+$color-danger-lighter: #FFEBF0;
+
 $color-white: #FFFFFF;
-$color-green-1: #007D69;
-$color-green-2: #AAEBD7;
-$color-green-3: #DCFAF0;
-$color-yellow-1: #FFBE3C;
-$color-yellow-2: #FFE19B;
-$color-yellow-3: #FFFAD2;
-$color-red-1: #D70A5A;
-$color-red-2: #FFD2DC;
-$color-red-2: #FFEBF0;
 $color-shadow: rgba(35, 55, 65, 0.55);
+$color-primary0: #00C3FF; /* blå themefarge */
+$color-primary02: #0069A5; /* blå for liten tekst */
+$color-primary03: #009BD7; /* blå for stor tekst */
+$color-primary04: #AAE6FF; /* lys blå */
+$color-neutral-lightest2: rgb(240, 37, 247);
 
-.fdk-color-blue-dark {
-    color: $color-blue-dark; }
+.fdk-color-link {
+    color: $color-link; }
     
-.fdk-bg-color-blue-dark {
-    background-color: $color-blue-dark; }
+.fdk-bg-color-link {
+    background-color: $color-link; }
     
-.fdk-color-blue {
-    color: $color-blue; }
+.fdk-color-primary {
+    color: $color-primary; }
 
-.fdk-bg-color-blue {
-    background-color: $color-blue; }
+.fdk-bg-color-primary {
+    background-color: $color-primary; }
 
-.fdk-color-blue-light {
-    color: $color-blue-light; }
+.fdk-color-primary-lighter {
+    color: $color-primary-lighter; }
 
-.fdk-bg-color-blue-light {
-    background-color: $color-blue-light; }
+.fdk-bg-color-primary-lighter {
+    background-color: $color-primary-lighter; }
 
-.fdk-color-dark-1 {
-    color: $color-dark-1; }
+.fdk-color-neutral-darkest {
+    color: $color-neutral-darkest; }
 
-.fdk-bg-color-dark-1 {
-    background-color: $color-dark-1; }
+.fdk-bg-color-neutral-darkest {
+    background-color: $color-neutral-darkest; }
 
-.fdk-color-dark-2 {
-    color: $color-dark-2; }
+.fdk-color-neutral-dark {
+    color: $color-neutral-dark; }
 
-.fdk-bg-color-dark-2 {
-    background-color: $color-dark-2; }
+.fdk-bg-color-neutral-dark {
+    background-color: $color-neutral-dark; }
 
-.fdk-color-grey-1 {
-    color: $color-grey-1; }
+.fdk-color-neutral-light {
+    color: $color-neutral-light; }
 
-.fdk-bg-color-grey-1 {
-    background-color: $color-grey-1; }
+.fdk-bg-color-neutral-light {
+    background-color: $color-neutral-light; }
 
-.fdk-color-grey-2 {
-    color: $color-grey-2; }
+.fdk-color-neutral-lighter {
+    color: $color-neutral-lighter; }
 
-.fdk-bg-color-grey-2 {
-    background-color: $color-grey-2; }
+.fdk-bg-color-neutral-lighter {
+    background-color: $color-neutral-lighter; }
 
-.fdk-color-grey-3 {
-    color: $color-grey-3; }
+.fdk-color-neutral-lightest {
+    color: $color-neutral-lightest; }
 
-.fdk-bg-color-grey-3 {
-    background-color: $color-grey-3; }
+.fdk-bg-color-neutral-lightest {
+    background-color: $color-neutral-lightest; }
 
-.fdk-color-grey-4 {
-    color: $color-grey-4; }
+.fdk-color-neutral-lightest2 {
+    color: $color-neutral-lightest2; }
 
-.fdk-bg-color-grey-4 {
-    background-color: $color-grey-4; }
+.fdk-bg-color-neutral-lightest2 {
+    background-color: $color-neutral-lightest2; }
 
 .fdk-color-white {
     color: $color-white; }
@@ -80,154 +86,154 @@ $color-shadow: rgba(35, 55, 65, 0.55);
 .fdk-bg-color-white {
     background-color: $color-white; }
 
-.fdk-color-green-1 {
-    color: $color-green-1; }
+.fdk-color-success {
+    color: $color-success; }
 
-.fdk-bg-color-green-1 {
-    background-color: $color-green-1; }
+.fdk-bg-color-success {
+    background-color: $color-success; }
 
-.fdk-color-green-2 {
-    color: $color-green-2; }
+.fdk-color-success-lighter {
+    color: $color-success-lighter; }
 
-.fdk-bg-color-green-2 {
-    background-color: $color-green-2; }
+.fdk-bg-color-success-lighter {
+    background-color: $color-success-lighter; }
 
-.fdk-color-yellow-1 {
-    color: $color-yellow-1; }
+.fdk-color-warning {
+    color: $color-warning; }
 
-.fdk-bg-color-yellow-1 {
-    background-color: $color-yellow-1; }
+.fdk-bg-color-warning {
+    background-color: $color-warning; }
 
-.fdk-color-yellow-2 {
-    color: $color-yellow-2; }
+.fdk-color-warning-lighter {
+    color: $color-warning-lighter; }
 
-.fdk-bg-color-yellow-2 {
-    background-color: $color-yellow-2; }
+.fdk-bg-color-warning-lighter {
+    background-color: $color-warning-lighter; }
 
-.fdk-color-red-1 {
-    color: $color-red-1; }
+.fdk-color-danger {
+    color: $color-danger; }
 
-.fdk-bg-color-red-1 {
-    background-color: $color-red-1; }
+.fdk-bg-color-danger {
+    background-color: $color-danger; }
 
-.fdk-color-red-2 {
-    color: $color-red-2; }
+.fdk-color-danger-lighter {
+    color: $color-danger-lighter; }
 
-.fdk-bg-color-red-2 {
-    background-color: $color-red-2; }
+.fdk-bg-color-danger-lighter {
+    background-color: $color-danger-lighter; }
 
 
 /**  DEPRECATED  **/
-$color0: #ffffff; /* hvit */
-$color1: #2D3741; /* mørkest blågrå – heading */
-$color2: #A0A5AA; /* medium blågrå – store ikoner */
-$color3: #646E78; /* medium blågrå – lysere tekst */
-$color4: #D2D7DC; /* mellomlys blågrå –  */
-$color5: #DEE3E8; /* bakgrunn til filter */
-$color6: #EEF0F2; /* lys blågrå – bakgrunner */
+$white: #ffffff; /* hvit */
+$color-nautral-darkest: #2D3741; /* mørkest blågrå – heading */
+$color-nautral-darkest2: #A0A5AA; /* medium blågrå – store ikoner */
+$color-nautral-dark: #646E78; /* medium blågrå – lysere tekst */
+$color-neutral-light: #D2D7DC; /* mellomlys blågrå –  */
+$color-neutral-lighter: #DEE3E8; /* bakgrunn til filter */
+$color-neutral-lightest: #EEF0F2; /* lys blågrå – bakgrunner */
 $color7: #F2F4F6; /* ultralys – til bakgrunn på hjelpetekst i nytt designforslag */
-$color-cta: #00C3FF; /* blå themefarge */
-$color-cta2: #0069A5; /* blå for liten tekst */
-$color-cta3: #009BD7; /* blå for stor tekst */
-$color-cta4: #AAE6FF; /* lys blå */
-$color-green: #00CD96; /* grønn */
-$color-green2: #D7FAF0; /* lys grønn*/
-$color-yellow: #FFC800; /* gul */
-$color-yellow2: #FFFAE1; /* lys gul */
-$color-red: #FF4682; /* rød */
-$color-red2: #FFE1EB; /* lys rød */
-$color-red3: #C80041; /* mørk rød */
+$color-primary0: #00C3FF; /* blå themefarge */
+$color-primary02: #0069A5; /* blå for liten tekst */
+$color-primary03: #009BD7; /* blå for stor tekst */
+$color-primary04: #AAE6FF; /* lys blå */
+$color-success: #00CD96; /* grønn */
+$color-success2: #D7FAF0; /* lys grønn*/
+$color-warning: #FFC800; /* gul */
+$color-warning2: #FFFAE1; /* lys gul */
+$color-danger: #FF4682; /* rød */
+$color-danger2: #FFE1EB; /* lys rød */
+$color-danger3: #C80041; /* mørk rød */
 
 /* DEPRECATED */
-.fdk-color-blue {
-    color: $color-blue;
+.fdk-color-primary {
+    color: $color-primary;
 }
 
-.fdk-bg-color-blue-1 {
-    background-color: $color-blue-light;
+.fdk-bg-color-primary-1 {
+    background-color: $color-primary-lighter;
 }
 
-.fdk-color-blue-dark-1 {
-    color: $color-blue-dark;
+.fdk-color-link-1 {
+    color: $color-link;
 }
 
-.fdk-bg-color-blue-dark-1 {
-    background-color: $color-blue-dark;
+.fdk-bg-color-link-1 {
+    background-color: $color-link;
 }
 
 /* DEPRECATED */
 
-.fdk-color0 {
-    color: $color0;
+.fdk-white {
+    color: $color-white;
 }
 
-.fdk-color1 {
-    color: $color1;
+.fdk-color-nautral-darkest {
+    color: $color-nautral-darkest;
 }
 
-.fdk-color2 {
-    color: $color2;
+.fdk-color-nautral-darkest2 {
+    color: $color-nautral-darkest2;
 }
 
-.fdk-color3 {
-    color: $color3;
+.fdk-color-nautral-dark {
+    color: $color-nautral-dark;
 }
-.fdk-color4 {
-    color: $color4;
-}
-
-.fdk-color5 {
-    color: $color5;
+.fdk-color-neutral-light {
+    color: $color-neutral-light;
 }
 
-.fdk-color6 {
-    color: $color6;
+.fdk-color-neutral-lighter {
+    color: $color-neutral-lighter;
 }
 
-.fdk-color-cta {
-    color: $color-cta;
+.fdk-color-neutral-lightest {
+    color: $color-neutral-lightest;
 }
 
-.fdk-color-cta2 {
-    color: $color-cta2;
+.fdk-color-primary0 {
+    color: $color-primary0;
 }
 
-.fdk-color-cta3 {
-    color: $color-cta3;
+.fdk-color-primary02 {
+    color: $color-primary02;
 }
 
-.fdk-color-cta4 {
-    color: $color-cta4;
+.fdk-color-primary03 {
+    color: $color-primary03;
+}
+
+.fdk-color-primary04 {
+    color: $color-primary04;
 }
 
 .fdk-color-offentlig {
-    color: $color-green !important;
+    color: $color-success !important;
 }
 
 .fdk-color-begrenset {
-    color: $color-yellow !important;
+    color: $color-warning !important;
 }
 
 .fdk-color-unntatt {
-    color: $color-red !important;
+    color: $color-danger !important;
 }
 
 .fdk-color-unknown {
-    color: $color2 !important;
+    color: $color-nautral-darkest2 !important;
 }
 
-.fdk-color-green {
-    color: $color-green;
+.fdk-color-success {
+    color: $color-success;
 }
 
-.fdk-color-yellow {
-    color: $color-yellow;
+.fdk-color-warning {
+    color: $color-warning;
 }
 
-.fdk-color-red {
-    color: $color-red;
+.fdk-color-danger {
+    color: $color-danger;
 }
 
 .fdk-color-icon-cta {
-    color: $color1;
+    color: $color-nautral-darkest;
 }
