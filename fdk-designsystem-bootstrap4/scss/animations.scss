@@ -174,39 +174,39 @@ select:-webkit-autofill {
 
 @keyframes autofill {
   to {
-    color: $color1;
-    background: $color0;
+    color: $color-nautral-darkest;
+    background: $color-white;
   }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes autofill {
   to {
-    color: $color1;
-    background: $color0;
+    color: $color-nautral-darkest;
+    background: $color-white;
   }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes autofill {
   to {
-    color: $color1;
-    background: $color0;
+    color: $color-nautral-darkest;
+    background: $color-white;
   }
 }
 
 /* Internet Explorer */
 @-ms-keyframes autofill {
   to {
-    color: $color1;
-    background: $color0;
+    color: $color-nautral-darkest;
+    background: $color-white;
   }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes autofill {
   to {
-    color: $color1;
-    background: $color0;
+    color: $color-nautral-darkest;
+    background: $color-white;
   }
 }

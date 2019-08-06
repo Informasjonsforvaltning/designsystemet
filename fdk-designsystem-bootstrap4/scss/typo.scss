@@ -28,7 +28,7 @@ h4 {
 }
 
 h5 {
-    color: $color3;
+    color: $color-nautral-dark;
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: .4rem;
@@ -47,25 +47,25 @@ p {
 }
 
 a {
-    color: $color-cta2;
+    color: $color-primary02;
     text-decoration: underline;
 }
 
 a:hover {
     text-decoration: none;
-    color: var(--color-cta2);
+    color: var(--color-primary02);
 }
 
 .fdk-p-footer {
     @include font-size(1.5);
     font-weight: 400;
-    color: $color3;
+    color: $color-nautral-dark;
     padding: 0;
     margin: 0;
 }
 
 .fdk-p-footer > a {
-    color: $color-blue-dark;
+    color: $color-link;
 }
 
 .fdk-external-link {
@@ -83,7 +83,7 @@ a:hover {
 .fdk-title-header {
     @include font-size(2.0);
     font-weight: 400;
-    color: $color3;
+    color: $color-nautral-dark;
     padding: 0;
     margin: 0;
 }
@@ -139,13 +139,13 @@ top: -7px;
 }
 
 .fdk-p-path {
-    color: $color3;
+    color: $color-nautral-dark;
     font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: .5em;
     padding: 1em 0;
     a {
-        color: $color-blue-dark;
+        color: $color-link;
         &:hover {
             text-decoration: underline;
         }
@@ -153,7 +153,7 @@ top: -7px;
 }
 
 .fdk-detail-date {
-    color: $color3;
+    color: $color-nautral-dark;
     font-size: 1.4rem;
 }
 
@@ -193,7 +193,7 @@ top: -7px;
 }
 
 .fdk-label-default:hover > .fdk-fa-button { /* Hovering for labels with font awesome icons */
-	color: $color1;
+	color: $color-nautral-darkest;
 }
 
 .fdk-label-default:active > .fdk-fa-button { /* Hovering for labels with font awesome icons */

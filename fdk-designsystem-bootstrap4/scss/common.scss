@@ -4,12 +4,12 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: $color6;
+    background-color: $color-neutral-lightest;
     font-family: "heebo", "helvetica", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.6em;
-    color: $color1;
+    color: $color-nautral-darkest;
 }
 
 
@@ -17,7 +17,7 @@ body {
 /*  C O N T A I N E R   &   H E A D E R   &   F O O T E R   */
 
 .fdk-container {
-    background-color: $color0;
+    background-color: $color-white;
     border-radius: 4px;
     margin: 0px 0px 10px 0px;
     &:hover {
@@ -26,8 +26,8 @@ body {
 }
 
 .fdk-header {
-    background-color: $color0;
-    border-bottom: 1px solid $color5;
+    background-color: $color-white;
+    border-bottom: 1px solid $color-neutral-lighter;
     padding: 1em 1.2em;
     margin: 0;
 }
@@ -59,9 +59,9 @@ body {
     background: none;
     text-shadow: none;
     text-align: center;
-    color: var(--color1);
+    color: var(--color-nautral-darkest);
     border: none;
-    border-bottom: 1px solid var(--color1);
+    border-bottom: 1px solid var(--color-nautral-darkest);
     &:hover {
         border-bottom: none;
         padding-bottom: 1px;
@@ -69,18 +69,18 @@ body {
     &:active {
         border-bottom: none;
         padding-bottom: 0;
-        border-bottom: 1px solid var(--color1);
+        border-bottom: 1px solid var(--color-nautral-darkest);
     }
 }
 
 .fdk-button-default, .fdk-button-default-no-hover {
-    background-color: $color-cta4;
-    color: $color1;
+    background-color: $color-primary04;
+    color: $color-nautral-darkest;
 }
 
 .fdk-button-default:hover, .fdk-button-default:focus .fdk-button-default:active .open >.fdk-button-default {
     border-radius: 3px;
-    border: 3px solid $color-cta4;
+    border: 3px solid $color-primary04;
     margin: 0px -1px 2px 0px;
     box-shadow: 0 4px 8px rgba(45,55,65,0.20);
 }
@@ -93,18 +93,18 @@ body {
 }
 
 .fdk-button-cta {
-    background-color: $color1;
-    color: $color0;
+    background-color: $color-nautral-darkest;
+    color: $color-white;
     box-shadow: 0 2px 4px rgba(45,55,65,0.30);
 }
 
 .fdk-button:disabled {
-    border: 1px dashed $color3;
+    border: 1px dashed $color-nautral-dark;
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 .fdk-button-small:disabled {
-    color: $color2;
+    color: $color-nautral-darkest2;
     border: none;
     padding-bottom: 3px;
 }
@@ -121,24 +121,24 @@ body {
 a > .fdk-button {
     text-decoration: none;
     font-weight: 400;
-    color: $color1;
+    color: $color-nautral-darkest;
 }
 
 a > .fdk-button-cta {
     text-decoration: none;
     font-weight: 400;
-    color: $color0;
+    color: $color-white;
 }
 
 .fdk-button-small:disabled > .fa {
-    color: $color2;
+    color: $color-nautral-darkest2;
 }
 
 /* * * * *   L A B E L S   * * * * */
 
 .fdk-label {
-    background-color: $color5;
-    color: $color1;
+    background-color: $color-neutral-lighter;
+    color: $color-nautral-darkest;
     font-size: 1.4rem;
     border-radius: 2px;
     padding: .3em .5em;
@@ -148,7 +148,7 @@ a > .fdk-button-cta {
 /* fonts */
 
 a > .fdk-label {
-    color: $color1;
+    color: $color-nautral-darkest;
     text-decoration: none;
     font-size: 1.4rem
 }
@@ -177,7 +177,7 @@ a > .fdk-label {
         text-decoration: underline;
         margin-right: .5em;
         &:focus, &:active, &:hover {
-            color: $color1 !important;
+            color: $color-nautral-darkest !important;
             background-color: transparent !important;
             border-color: transparent !important;
         }
@@ -219,7 +219,7 @@ a > .fdk-label {
 
 #skip-link-wrap {
     a {
-        color: $color-cta2;
+        color: $color-primary02;
         position: absolute;
         width: 1px;
         height: 1px;
@@ -255,7 +255,7 @@ a > .fdk-label {
  FOOTER
  */
 .fdk-footer {
-    border-top: 1px solid $color5;
+    border-top: 1px solid $color-neutral-lighter;
     margin: 60px 0px 0px 0px;
     padding: 1.2em 0;
 }
@@ -268,14 +268,14 @@ SEARCHPAGE SORTING DROPDOWN
 .btn-group {
     .fdk-button-default {
         &:focus, &:active, &:hover {
-            background-color: $color-cta4;
+            background-color: $color-primary04;
             border-color: transparent;
             box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2);
         }
     }
     .fdk-button-dropdown {
         &:focus, &:active, &:hover {
-            background-color: $color0;
+            background-color: $color-white;
             border-color: transparent;
             box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2);
         }
@@ -284,13 +284,13 @@ SEARCHPAGE SORTING DROPDOWN
 
 .open.btn-group {
     .fdk-button-default {
-        background-color: $color-cta4;
+        background-color: $color-primary04;
         border-color: transparent;
         box-shadow: none;
     }
     .fdk-button-dropdown {
         &:focus, &:active, &:hover {
-            background-color: $color0;
+            background-color: $color-white;
             border-color: transparent;
             box-shadow: none;
         }
