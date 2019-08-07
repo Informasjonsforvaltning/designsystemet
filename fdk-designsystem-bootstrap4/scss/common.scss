@@ -9,7 +9,7 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.6em;
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
 }
 
 
@@ -59,9 +59,9 @@ body {
     background: none;
     text-shadow: none;
     text-align: center;
-    color: var(--color-nautral-darkest);
+    color: var(--color-neutral-darkest);
     border: none;
-    border-bottom: 1px solid var(--color-nautral-darkest);
+    border-bottom: 1px solid var(--color-neutral-darkest);
     &:hover {
         border-bottom: none;
         padding-bottom: 1px;
@@ -69,13 +69,13 @@ body {
     &:active {
         border-bottom: none;
         padding-bottom: 0;
-        border-bottom: 1px solid var(--color-nautral-darkest);
+        border-bottom: 1px solid var(--color-neutral-darkest);
     }
 }
 
 .fdk-button-default, .fdk-button-default-no-hover {
     background-color: $color-primary04;
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
 }
 
 .fdk-button-default:hover, .fdk-button-default:focus .fdk-button-default:active .open >.fdk-button-default {
@@ -93,18 +93,18 @@ body {
 }
 
 .fdk-button-cta {
-    background-color: $color-nautral-darkest;
+    background-color: $color-neutral-darkest;
     color: $color-white;
     box-shadow: 0 2px 4px rgba(45,55,65,0.30);
 }
 
 .fdk-button:disabled {
-    border: 1px dashed $color-nautral-dark;
+    border: 1px dashed $color-neutral-dark;
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 .fdk-button-small:disabled {
-    color: $color-nautral-darkest2;
+    color: $color-neutral-darkest2;
     border: none;
     padding-bottom: 3px;
 }
@@ -121,7 +121,7 @@ body {
 a > .fdk-button {
     text-decoration: none;
     font-weight: 400;
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
 }
 
 a > .fdk-button-cta {
@@ -131,14 +131,14 @@ a > .fdk-button-cta {
 }
 
 .fdk-button-small:disabled > .fa {
-    color: $color-nautral-darkest2;
+    color: $color-neutral-darkest2;
 }
 
 /* * * * *   L A B E L S   * * * * */
 
 .fdk-label {
     background-color: $color-neutral-lighter;
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     font-size: 1.4rem;
     border-radius: 2px;
     padding: .3em .5em;
@@ -148,7 +148,7 @@ a > .fdk-button-cta {
 /* fonts */
 
 a > .fdk-label {
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     text-decoration: none;
     font-size: 1.4rem
 }
@@ -177,7 +177,7 @@ a > .fdk-label {
         text-decoration: underline;
         margin-right: .5em;
         &:focus, &:active, &:hover {
-            color: $color-nautral-darkest !important;
+            color: $color-neutral-darkest !important;
             background-color: transparent !important;
             border-color: transparent !important;
         }
