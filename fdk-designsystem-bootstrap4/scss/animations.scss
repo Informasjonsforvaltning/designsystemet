@@ -174,7 +174,7 @@ select:-webkit-autofill {
 
 @keyframes autofill {
   to {
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     background: $color-white;
   }
 }
@@ -182,7 +182,7 @@ select:-webkit-autofill {
 /* Firefox < 16 */
 @-moz-keyframes autofill {
   to {
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     background: $color-white;
   }
 }
@@ -190,7 +190,7 @@ select:-webkit-autofill {
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes autofill {
   to {
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     background: $color-white;
   }
 }
@@ -198,7 +198,7 @@ select:-webkit-autofill {
 /* Internet Explorer */
 @-ms-keyframes autofill {
   to {
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     background: $color-white;
   }
 }
@@ -206,7 +206,7 @@ select:-webkit-autofill {
 /* Opera < 12.1 */
 @-o-keyframes autofill {
   to {
-    color: $color-nautral-darkest;
+    color: $color-neutral-darkest;
     background: $color-white;
   }
 }

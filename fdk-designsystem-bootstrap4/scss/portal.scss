@@ -6,9 +6,9 @@
 	.nav a {
 		font-size: 1.5rem;
 		text-decoration: none;
-		color: $color-nautral-darkest;
+		color: $color-neutral-darkest;
 		&:focus, &:active, &:hover {
-			color: $color-nautral-darkest !important;
+			color: $color-neutral-darkest !important;
 		}
 	}
 }
@@ -75,8 +75,8 @@
 
 /*  I N P U T  */
 .fdk-search {
-    color: $color-nautral-darkest;
-    border: 1px solid $color-nautral-darkest;
+    color: $color-neutral-darkest;
+    border: 1px solid $color-neutral-darkest;
     border-radius: 5px;
     font-size: 2rem;
     line-height: 3rem;
@@ -86,21 +86,21 @@
 }
 
 ::-webkit-input-placeholder { /* PLACEHOLDER COLOR FOR: WebKit, Blink, Edge */
-    color: $color-nautral-dark;
+    color: $color-neutral-dark;
 }
 
 :-moz-placeholder { /* PLACEHOLDER COLOR FOR: Mozilla Firefox 4 to 18 */
-   color: $color-nautral-dark;
+   color: $color-neutral-dark;
    opacity: 1;
 }
 
 ::-moz-placeholder { /* PLACEHOLDER COLOR FOR: Mozilla Firefox 19+ */
-   color: $color-nautral-dark;
+   color: $color-neutral-dark;
    opacity: 1;
 }
 
 :-ms-input-placeholder { /* PLACEHOLDER COLOR FOR: Internet Explorer 10-11 */
-   color: $color-nautral-dark;
+   color: $color-neutral-dark;
 }
 
 /* Medium Devices, Desktops */
