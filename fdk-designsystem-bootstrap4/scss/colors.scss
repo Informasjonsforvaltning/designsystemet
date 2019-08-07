@@ -122,28 +122,6 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-danger-lighter {
     background-color: $color-danger-lighter; }
 
-
-/**  DEPRECATED  **/
-$white: #ffffff; /* hvit */
-$color-nautral-darkest: #2D3741; /* mørkest blågrå – heading */
-$color-nautral-darkest2: #A0A5AA; /* medium blågrå – store ikoner */
-$color-nautral-dark: #646E78; /* medium blågrå – lysere tekst */
-$color-neutral-light: #D2D7DC; /* mellomlys blågrå –  */
-$color-neutral-lighter: #DEE3E8; /* bakgrunn til filter */
-$color-neutral-lightest: #EEF0F2; /* lys blågrå – bakgrunner */
-$color7: #F2F4F6; /* ultralys – til bakgrunn på hjelpetekst i nytt designforslag */
-$color-primary0: #00C3FF; /* blå themefarge */
-$color-primary02: #0069A5; /* blå for liten tekst */
-$color-primary03: #009BD7; /* blå for stor tekst */
-$color-primary04: #AAE6FF; /* lys blå */
-$color-success: #00CD96; /* grønn */
-$color-success2: #D7FAF0; /* lys grønn*/
-$color-warning: #FFC800; /* gul */
-$color-warning2: #FFFAE1; /* lys gul */
-$color-danger: #FF4682; /* rød */
-$color-danger2: #FFE1EB; /* lys rød */
-$color-danger3: #C80041; /* mørk rød */
-
 /* DEPRECATED */
 .fdk-color-primary {
     color: $color-primary;
