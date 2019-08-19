@@ -74,13 +74,13 @@ body {
 }
 
 .fdk-button-default, .fdk-button-default-no-hover {
-    background-color: $color-primary04;
+    background-color: $color-primary;
     color: $color-neutral-darkest;
 }
 
 .fdk-button-default:hover, .fdk-button-default:focus .fdk-button-default:active .open >.fdk-button-default {
     border-radius: 3px;
-    border: 3px solid $color-primary04;
+    border: 3px solid $color-primary;
     margin: 0px -1px 2px 0px;
     box-shadow: 0 4px 8px rgba(45,55,65,0.20);
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .fdk-button-small:disabled {
-    color: $color-neutral-darkest2;
+    color: $color-neutral-darkest;
     border: none;
     padding-bottom: 3px;
 }
@@ -131,7 +131,7 @@ a > .fdk-button-cta {
 }
 
 .fdk-button-small:disabled > .fa {
-    color: $color-neutral-darkest2;
+    color: $color-neutral-darkest;
 }
 
 /* * * * *   L A B E L S   * * * * */
@@ -219,7 +219,7 @@ a > .fdk-label {
 
 #skip-link-wrap {
     a {
-        color: $color-primary02;
+        color: $color-primary;
         position: absolute;
         width: 1px;
         height: 1px;
@@ -268,7 +268,7 @@ SEARCHPAGE SORTING DROPDOWN
 .btn-group {
     .fdk-button-default {
         &:focus, &:active, &:hover {
-            background-color: $color-primary04;
+            background-color: $color-primary;
             border-color: transparent;
             box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2);
         }
@@ -284,7 +284,7 @@ SEARCHPAGE SORTING DROPDOWN
 
 .open.btn-group {
     .fdk-button-default {
-        background-color: $color-primary04;
+        background-color: $color-primary;
         border-color: transparent;
         box-shadow: none;
     }
