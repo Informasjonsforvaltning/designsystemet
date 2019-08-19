@@ -65,7 +65,7 @@
     font-weight: 600;
     padding: 10px 5px 9px 5px;
     margin-right: 10px;
-    background-color: $color-primary0;
+    background-color: $color-primary;
     color: $color-neutral-darkest;
     width: 40px;
     height: auto;
@@ -107,7 +107,7 @@
 }
 
 .designsystemColor2 {
-    background-color: $color-neutral-darkest2;
+    background-color: $color-neutral-darkest;
     color: #fff;
     font-weight: 300;
 }
@@ -140,12 +140,12 @@
 }
 
 .designsystemColorCta {
-    background-color: $color-primary0;
+    background-color: $color-primary;
     color: $color-neutral-darkest;
 }
 
 .designsystemColorCta2 {
-    background-color: $color-primary02;
+    background-color: $color-primary;
     color: $white;
     font-weight: 300;
 }
@@ -156,7 +156,7 @@
 }
 
 .designsystemColorCta4 {
-    background-color: $color-primary04;
+    background-color: $color-primary;
     color: $color-neutral-darkest;
 }
 
@@ -210,5 +210,5 @@
 }
 
 .designsystemLinks:hover {
-    color: $color-primary0;
+    color: $color-primary;
 }

@@ -1,43 +1,56 @@
-/* VALID */
+// https://projects.invisionapp.com/share/B3T9BKV7KW6#/screens/376872270
+
+$color-primary: #00C3FF;
+$color-primary-light: #B3EDFF;
+$color-primary-lighter: #E5F9FF;
+
+$color-link-darker: #004A73;
+$color-link-dark: #005484;
 $color-link: #0069A5;
-$color-primary: #3CBEF0;
-$color-primary-lighter: #AAE6FF;
+$color-link-light: #BFD9E8;
+$color-link-lighter: #CCE1ED;
+
 $color-neutral-darkest: #2D3741;
-$color-neutral-darkest2: #2D3741;
-$color-neutral-dark: #646E78;
-$color-neutral-light: #D2D7DC;
-$color-neutral-lighter: #DEE3E8;
-$color-neutral-lightest: #EEF0F2;
-$color-neutral-lightest2: #F2F4F6;
+$color-neutral-dark: #6C737A;
+$color-neutral: #969BA0;
+$color-neutral-light: #D5D7D9;
+$color-neutral-lighter: #DFE1E2;
+$color-neutral-lightest: #EEEFF0;
+
 $color-success: #007D69;
-$color-success-lighter: #AAEBD7;
-$color-success-3: #DCFAF0;
+$color-success-lighter: #A6D1CA;
+$color-success-lightest: #D9EBE8;
+
+$color-warning-dark: #805F1E;
 $color-warning: #FFBE3C;
-$color-warning-lighter: #FFE19B;
-$color-warning-3: #FFFAD2;
+$color-warning-lighter: #FFE5B1;
+$color-warning-lightest: #FFF2D8;
+
 $color-danger: #D70A5A;
-$color-danger-lighter: #FFD2DC;
-$color-danger-lighter: #FFEBF0;
+$color-danger-lighter: #F1A9C5;
+$color-danger-lightest: #F9DAE6;
 
+// White
 $color-white: #FFFFFF;
-$color-shadow: rgba(35, 55, 65, 0.55);
-$color-primary0: #00C3FF; /* blå themefarge */
-$color-primary02: #0069A5; /* blå for liten tekst */
-$color-primary03: #009BD7; /* blå for stor tekst */
-$color-primary04: #AAE6FF; /* lys blå */
-$color-neutral-lightest2: rgb(240, 37, 247);
 
-.fdk-color-link {
-    color: $color-link; }
-    
-.fdk-bg-color-link {
-    background-color: $color-link; }
-    
+// CSS Box Shadow
+$color-shadow: rgba(35, 55, 65, 0.55);
+
+
+// Primary
 .fdk-color-primary {
     color: $color-primary; }
 
 .fdk-bg-color-primary {
     background-color: $color-primary; }
+
+
+.fdk-color-primary-light {
+    color: $color-primary-light; }
+
+.fdk-bg-color-primary-light {
+    background-color: $color-primary-light; }
+
 
 .fdk-color-primary-lighter {
     color: $color-primary-lighter; }
@@ -45,11 +58,51 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-primary-lighter {
     background-color: $color-primary-lighter; }
 
+
+// Link
+.fdk-color-link-darker {
+    color: $color-link-darker; }
+    
+.fdk-bg-color-link-darker {
+    background-color: $color-link-darker; }
+
+
+.fdk-color-link-dark {
+    color: $color-link-dark; }
+    
+.fdk-bg-color-link-dark {
+    background-color: $color-link-dark; }
+
+
+.fdk-color-link {
+    color: $color-link; }
+    
+.fdk-bg-color-link {
+    background-color: $color-link; }
+
+
+.fdk-color-link-light {
+    color: $color-link; }
+    
+.fdk-bg-color-link-light {
+    background-color: $color-link; }
+
+
+.fdk-color-link-lighter {
+    color: $color-link-lighter; }
+    
+.fdk-bg-color-link-lighter {
+    background-color: $color-link-lighter; }
+
+
+
+// Neutral
 .fdk-color-neutral-darkest {
     color: $color-neutral-darkest; }
 
 .fdk-bg-color-neutral-darkest {
     background-color: $color-neutral-darkest; }
+
 
 .fdk-color-neutral-dark {
     color: $color-neutral-dark; }
@@ -57,11 +110,20 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-neutral-dark {
     background-color: $color-neutral-dark; }
 
+
+.fdk-color-neutral {
+    color: $color-neutral; }
+
+.fdk-bg-color-neutral {
+    background-color: $color-neutral; }
+
+
 .fdk-color-neutral-light {
     color: $color-neutral-light; }
 
 .fdk-bg-color-neutral-light {
     background-color: $color-neutral-light; }
+
 
 .fdk-color-neutral-lighter {
     color: $color-neutral-lighter; }
@@ -69,29 +131,23 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-neutral-lighter {
     background-color: $color-neutral-lighter; }
 
+
 .fdk-color-neutral-lightest {
     color: $color-neutral-lightest; }
 
 .fdk-bg-color-neutral-lightest {
     background-color: $color-neutral-lightest; }
 
-.fdk-color-neutral-lightest2 {
-    color: $color-neutral-lightest2; }
 
-.fdk-bg-color-neutral-lightest2 {
-    background-color: $color-neutral-lightest2; }
 
-.fdk-color-white {
-    color: $color-white; }
 
-.fdk-bg-color-white {
-    background-color: $color-white; }
-
+// Success
 .fdk-color-success {
     color: $color-success; }
 
 .fdk-bg-color-success {
     background-color: $color-success; }
+
 
 .fdk-color-success-lighter {
     color: $color-success-lighter; }
@@ -99,11 +155,22 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-success-lighter {
     background-color: $color-success-lighter; }
 
+
+.fdk-color-success-lightest {
+    color: $color-success-lightest; }
+
+.fdk-bg-color-success-lightest {
+    background-color: $color-success-lightest; }
+
+
+
+// Warning
 .fdk-color-warning {
     color: $color-warning; }
 
 .fdk-bg-color-warning {
     background-color: $color-warning; }
+
 
 .fdk-color-warning-lighter {
     color: $color-warning-lighter; }
@@ -111,11 +178,21 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-warning-lighter {
     background-color: $color-warning-lighter; }
 
+    
+.fdk-color-warning-lightest {
+    color: $color-warning-lightest; }
+
+.fdk-bg-color-warning-lightest {
+    background-color: $color-warning-lightest; }
+
+
+// Danger
 .fdk-color-danger {
     color: $color-danger; }
 
 .fdk-bg-color-danger {
     background-color: $color-danger; }
+
 
 .fdk-color-danger-lighter {
     color: $color-danger-lighter; }
@@ -123,93 +200,30 @@ $color-neutral-lightest2: rgb(240, 37, 247);
 .fdk-bg-color-danger-lighter {
     background-color: $color-danger-lighter; }
 
-.fdk-color-primary {
-    color: $color-primary;
-}
 
-.fdk-bg-color-primary-1 {
-    background-color: $color-primary-lighter;
-}
+.fdk-color-danger-lightest {
+    color: $color-danger-lightest; }
 
-.fdk-color-link-1 {
-    color: $color-link;
-}
+.fdk-bg-color-danger-lightest {
+    background-color: $color-danger-lightest; }
+    
+    
 
-.fdk-bg-color-link-1 {
-    background-color: $color-link;
-}
+// Div
+.fdk-color-white {
+    color: $color-white; }
+
+.fdk-bg-color-white {
+    background-color: $color-white; }
 
 .fdk-white {
-    color: $color-white;
-}
-
-.fdk-color-neutral-darkest {
-    color: $color-neutral-darkest;
-}
-
-.fdk-color-neutral-darkest2 {
-    color: $color-neutral-darkest2;
-}
-
-.fdk-color-nautral-dark {
-    color: $color-neutral-dark;
-}
-.fdk-color-neutral-light {
-    color: $color-neutral-light;
-}
-
-.fdk-color-neutral-lighter {
-    color: $color-neutral-lighter;
-}
-
-.fdk-color-neutral-lightest {
-    color: $color-neutral-lightest;
-}
-
-.fdk-color-primary0 {
-    color: $color-primary0;
-}
-
-.fdk-color-primary02 {
-    color: $color-primary02;
-}
-
-.fdk-color-primary03 {
-    color: $color-primary03;
-}
-
-.fdk-color-primary04 {
-    color: $color-primary04;
-}
+    color: $color-white; }
 
 .fdk-color-offentlig {
-    color: $color-success !important;
-}
+    color: $color-success !important; }
 
 .fdk-color-begrenset {
-    color: $color-warning !important;
-}
+    color: $color-warning !important; }
 
 .fdk-color-unntatt {
-    color: $color-danger !important;
-}
-
-.fdk-color-unknown {
-    color: $color-neutral-darkest2 !important;
-}
-
-.fdk-color-success {
-    color: $color-success;
-}
-
-.fdk-color-warning {
-    color: $color-warning;
-}
-
-.fdk-color-danger {
-    color: $color-danger;
-}
-
-.fdk-color-icon-cta {
-    color: $color-neutral-darkest;
-}
+    color: $color-danger !important; }
