@@ -47,13 +47,13 @@ p {
 }
 
 a {
-    color: $color-primary;
+    color: $color-link;
     text-decoration: underline;
 }
 
 a:hover {
     text-decoration: none;
-    color: var(--color-primary);
+    color: var(--color-neutral-dark);
 }
 
 .fdk-p-footer {

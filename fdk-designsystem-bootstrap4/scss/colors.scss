@@ -21,7 +21,7 @@ $color-success: #007D69;
 $color-success-lighter: #A6D1CA;
 $color-success-lightest: #D9EBE8;
 
-$color-warning-dark: #805F1E;
+$color-warning-darker: #805F1E;
 $color-warning: #FFBE3C;
 $color-warning-lighter: #FFE5B1;
 $color-warning-lightest: #FFF2D8;
@@ -165,6 +165,12 @@ $color-shadow: rgba(35, 55, 65, 0.55);
 
 
 // Warning
+.fdk-color-warning-darker {
+    color: $color-warning-darker; }
+
+.fdk-bg-color-warning-darker {
+    background-color: $color-warning-darker; }
+
 .fdk-color-warning {
     color: $color-warning; }
 
