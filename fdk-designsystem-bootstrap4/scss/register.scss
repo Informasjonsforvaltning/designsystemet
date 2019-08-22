@@ -1,5 +1,9 @@
 @import './colors.scss';
 
+.theme-fdk {
+  background-color: $color-neutral-lightest;
+  color: $color-neutral-darkest;
+}
 .text-ellipsis {
   white-space: nowrap;
   overflow: hidden;

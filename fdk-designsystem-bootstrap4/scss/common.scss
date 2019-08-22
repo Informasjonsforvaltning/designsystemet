@@ -4,12 +4,14 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: $color-neutral-lightest;
     font-family: "heebo", "helvetica", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.6em;
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        color: themed('color-neutral-darkest');
+        background-color: themed('color-neutral-lightest');
+    }
 }
 
 
@@ -27,7 +29,9 @@ body {
 
 .fdk-header {
     background-color: $color-white;
-    border-bottom: 1px solid $color-neutral-lighter;
+    @include themify($themes) {
+        border-bottom: 1px solid themed('color-neutral-lighter');
+    }
     padding: 1em 1.2em;
     margin: 0;
 }
@@ -74,13 +78,17 @@ body {
 }
 
 .fdk-button-default, .fdk-button-default-no-hover {
-    background-color: $color-primary;
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        background-color: themed('button-primary');
+        color: themed('button-text-primary');
+    }
 }
 
 .fdk-button-default:hover, .fdk-button-default:focus .fdk-button-default:active .open >.fdk-button-default {
     border-radius: 3px;
-    border: 3px solid $color-primary;
+    @include themify($themes) {
+        border: 3px solid themed('button-primary');
+    }
     margin: 0px -1px 2px 0px;
     box-shadow: 0 4px 8px rgba(45,55,65,0.20);
 }
@@ -99,12 +107,16 @@ body {
 }
 
 .fdk-button:disabled {
-    border: 1px dashed $color-neutral-dark;
+    @include themify($themes) {
+        border: 1px dashed themed('color-neutral-dark');
+    }
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 .fdk-button-small:disabled {
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        color: themed('button-text-primary');
+    }
     border: none;
     padding-bottom: 3px;
 }
@@ -121,7 +133,9 @@ body {
 a > .fdk-button {
     text-decoration: none;
     font-weight: 400;
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        color: themed('button-text-primary');
+    }
 }
 
 a > .fdk-button-cta {
@@ -131,14 +145,18 @@ a > .fdk-button-cta {
 }
 
 .fdk-button-small:disabled > .fa {
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        color: themed('button-text-primary');
+    }
 }
 
 /* * * * *   L A B E L S   * * * * */
 
 .fdk-label {
-    background-color: $color-neutral-lighter;
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        background-color: themed('color-neutral-lighter');
+        color: themed('color-neutral-darkest');
+    }
     font-size: 1.4rem;
     border-radius: 2px;
     padding: .3em .5em;
@@ -148,7 +166,9 @@ a > .fdk-button-cta {
 /* fonts */
 
 a > .fdk-label {
-    color: $color-neutral-darkest;
+    @include themify($themes) {
+        color: themed('color-neutral-darkest');
+    }
     text-decoration: none;
     font-size: 1.4rem
 }
@@ -177,7 +197,9 @@ a > .fdk-label {
         text-decoration: underline;
         margin-right: .5em;
         &:focus, &:active, &:hover {
-            color: $color-neutral-darkest !important;
+            @include themify($themes) {
+                color: themed('color-neutral-darkest') !important;
+            }
             background-color: transparent !important;
             border-color: transparent !important;
         }
@@ -219,7 +241,9 @@ a > .fdk-label {
 
 #skip-link-wrap {
     a {
-        color: $color-primary;
+        @include themify($themes) {
+            color: themed('text-link');
+        }
         position: absolute;
         width: 1px;
         height: 1px;
@@ -255,7 +279,9 @@ a > .fdk-label {
  FOOTER
  */
 .fdk-footer {
-    border-top: 1px solid $color-neutral-lighter;
+    @include themify($themes) {
+        border-top: 1px solid themed('color-neutral-lighter');
+    }
     margin: 60px 0px 0px 0px;
     padding: 1.2em 0;
 }
@@ -269,6 +295,9 @@ SEARCHPAGE SORTING DROPDOWN
     .fdk-button-default {
         &:focus, &:active, &:hover {
             background-color: $color-primary;
+            @include themify($themes) {
+                background-color: themed('button-primary-2');
+            }
             border-color: transparent;
             box-shadow: 0 4px 8px rgba(45, 55, 65, 0.2);
         }
@@ -284,7 +313,9 @@ SEARCHPAGE SORTING DROPDOWN
 
 .open.btn-group {
     .fdk-button-default {
-        background-color: $color-primary;
+        @include themify($themes) {
+            background-color: themed('button-primary-1');
+        }
         border-color: transparent;
         box-shadow: none;
     }
