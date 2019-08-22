@@ -1,14 +1,28 @@
 @import './colors.scss';
 
+.theme-nap {
+	background-color: #F0F1F1;
+	color: #444F55;
+}
+
+.theme-fdk {
+	background-color: #EEEFF0;
+	color: #2D3741;
+}
+
 /*  HEADER  */
 
 .fdk-header {
 	.nav a {
 		font-size: 1.5rem;
 		text-decoration: none;
-		color: $color-neutral-darkest;
+		@include themify($themes) {
+			color: themed('text-link');
+		}
 		&:focus, &:active, &:hover {
-			color: $color-neutral-darkest !important;
+			@include themify($themes) {
+				color: themed('text-link') !important;
+			}
 		}
 	}
 }
@@ -21,10 +35,14 @@
 	background-image: none;
 	text-decoration: none;
 	margin-right: .5em;
-	color: $color-link !important;
+	@include themify($themes) {
+		color: themed('text-link') !important;
+	}
 	font-size: 1.5rem;
 	&:focus, &:active, &:hover {
-		color: $color-link !important;
+		@include themify($themes) {
+			color: themed('text-link') !important;
+		}
 		background-color: transparent !important;
 		border-color: transparent !important;
 	}
@@ -38,10 +56,14 @@
 	background-image: none;
 	text-decoration: none;
 	margin-right: .5em;
-	color: $color-link !important;
+	@include themify($themes) {
+		color: themed('text-link') !important;
+	}
 	font-size: 1.5rem;
 	&:focus, &:active, &:hover {
-		color: $color-link !important;
+		@include themify($themes) {
+			color: themed('text-link') !important;
+		}
 		background-color: transparent !important;
 		border-color: transparent !important;
 	}
@@ -68,15 +90,19 @@
 	button {
 		span {
 			font-size: 2rem;
-			color: $color-danger;
+			@include themify($themes) {
+				color: themed('color-danger');
+			}
 		}
 	}
 }
 
 /*  I N P U T  */
 .fdk-search {
-    color: $color-neutral-darkest;
-    border: 1px solid $color-neutral-darkest;
+	@include themify($themes) {
+		color: themed('color-neutral-darkest');
+		border: 1px solid themed('color-neutral-darkest');
+	}
     border-radius: 5px;
     font-size: 2rem;
     line-height: 3rem;
@@ -86,21 +112,29 @@
 }
 
 ::-webkit-input-placeholder { /* PLACEHOLDER COLOR FOR: WebKit, Blink, Edge */
-    color: $color-neutral-dark;
+	@include themify($themes) {
+		color: themed('color-neutral-dark');
+	}
 }
 
 :-moz-placeholder { /* PLACEHOLDER COLOR FOR: Mozilla Firefox 4 to 18 */
-   color: $color-neutral-dark;
+	@include themify($themes) {
+		color: themed('color-neutral-dark');
+	}
    opacity: 1;
 }
 
 ::-moz-placeholder { /* PLACEHOLDER COLOR FOR: Mozilla Firefox 19+ */
-   color: $color-neutral-dark;
-   opacity: 1;
+	@include themify($themes) {
+		color: themed('color-neutral-dark');
+	}
+	opacity: 1;
 }
 
 :-ms-input-placeholder { /* PLACEHOLDER COLOR FOR: Internet Explorer 10-11 */
-   color: $color-neutral-dark;
+	@include themify($themes) {
+		color: themed('color-neutral-dark');
+	}
 }
 
 /* Medium Devices, Desktops */
