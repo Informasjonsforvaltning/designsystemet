@@ -152,10 +152,12 @@ top: -7px;
     @include themify($themes) {
         color: themed('text-light');
     }
-    font-size: 1.3rem;
     font-weight: 300;
     margin-bottom: .5em;
-    padding: 1em 0;
+    padding: .5em 0;
+    @include themify($themes) {
+        border-bottom: 1px solid themed('color-neutral-light');
+    }
     a {
         @include themify($themes) {
             color: themed('text-link');
