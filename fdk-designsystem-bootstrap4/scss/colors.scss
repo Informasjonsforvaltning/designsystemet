@@ -3,6 +3,8 @@
 
 $themes: (
         nap: (
+                color-header: #FFFFFF,
+                color-header-bg: #2E3539,
                 color-primary: #ED9300,
                 color-primary-light: #FADFB2,
                 color-primary-lighter: #FDF4E5,
@@ -30,12 +32,12 @@ $themes: (
                 color-danger-lighter: #ECB7AD,
                 color-danger-lightest: #F7E0DC,
 
-                color-button-primary-1: #ED9300,
+                color-button-primary-1: #008ec2,
                 color-button-primary-2: #F1A933,
                 color-button-secondary-1: #F8D499,
                 color-button-secondary-2: #FAE4BF,
                 color-button-shadow: #8E5800,
-                color-button-text-primary: #2E3539,
+                color-button-text-primary: #FFFFFF,
                 color-button-text-secondary: #2E3539,
                 color-icon-stroke: #2E3539,
                 color-icon-fill: #ED9300,
@@ -45,6 +47,8 @@ $themes: (
                 color-text-link: #444F55
         ),
         fdk: (
+                color-header: #000000,
+                color-header-bg: #FFFFFF,
                 color-primary: #00C3FF,
                 color-primary-light: #B3EDFF,
                 color-primary-lighter: #E5F9FF,
