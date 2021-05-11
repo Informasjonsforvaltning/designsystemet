@@ -12,6 +12,6 @@
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
     "live-server": "^1.2.0",
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.13.1"
   }
 }
